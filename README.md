@@ -12,7 +12,7 @@ View our [guide on deploying NestJS apps](https://seenode.com/docs/services/web-
 
 1.  **Connect Your Repository**: Go to the [Seenode dashboard](https://cloud.seenode.com), select **New Web Service**, and choose this Git repository.
 2.  **Confirm Settings**: Seenode will detect the Node.js environment and suggest the correct commands.
-    *   **Build Command**: `npm run build`
+    *   **Build Command**: `npm i && run build`
     *   **Start Command**: `npm run start:prod`
 3.  **Deploy**: Click **Create Web Service**.
 
