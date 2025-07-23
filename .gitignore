@@ -1,0 +1,20 @@
+# dependencies
+/node_modules
+
+# build
+/dist
+
+# logs
+npm-debug.log*
+yarn-error.log
+
+# environment variables
+.env
+
+# testing
+/coverage
+
+# misc
+.DS_Store
+.idea
+.vscode
