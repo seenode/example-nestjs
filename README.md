@@ -21,5 +21,5 @@ That's it! Your NestJS app will be deployed and available at a public URL.
 ### Key Features on Seenode
 
 *   **Production-Ready**: By using the production start command, you are running an optimized build of your application.
-*   **Automatic Port Handling**: Seenode manages port assignments by injecting the `$PORT` environment variable, which NestJS uses automatically.
+*   **Port Binding**: This example is configured to listen on port 80. Ensure your application code binds to this port.
 *   **Seamless Scaling**: Scale your service horizontally or vertically with a few clicks from the Seenode dashboard as your traffic grows.
